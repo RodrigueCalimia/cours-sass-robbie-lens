@@ -4,10 +4,12 @@ $color-secondary: #242424;
 $color-light: #f9f8ff;
 $color-black: #1f2039;
 $color-white: white;
+$color-lg-1: #8e86b5;
+$color-lg-2: #acaeed;
 
 // Les mixins
 @mixin linear-gradient { 
-  background: linear-gradient(#8e86b5, #acaeed); 
+  background: linear-gradient($color-lg-1, $color-lg-2); 
 }
 
 * {
