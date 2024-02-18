@@ -1,15 +1,13 @@
-# COURS SASS - Mise en pratique P6 - Utilisez les variables
+# COURS SASS - Mise en pratique P7 - Créez une mixim
 
 ## Instructions :
 
-1. Créez les variables ci-dessous dans le fichier style.scss
+1. Dans le fichier **style.scss**, créez une mixim pour la couleur dégradée comme ci-dessous :
 ```
-$color-primary: #a5b4fc
-$color-secondary: #242424
-$color-light: #f9f8ff
-$color-black: #1f2039
-$color-white: white
+@mixim linear-gradient { 
+    background: linear-gradient(#8e86b5, #acaeed); 
+}
 ```
 
-2. Remplacez les codes hexa par les variables
+2. Incluez cette mixim dans les sélecteurs **.cta** et **.cta:hover**
 3. Enregistrez les modifications
