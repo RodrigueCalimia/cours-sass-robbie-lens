@@ -1,8 +1,11 @@
-# COURS SASS - Mise en pratique P3
+# COURS SASS - Mise en pratique P4 - CSS vs Sass
+
+## Pré requis :
+
+1. Avoir installé le plugin [Live Sass compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass) dans votre éditeur de code (VScode par exemple).
 
 ## Instructions :
 
-1. Ajoutez la classe **navbar__link--purple** à la balise `<a>` de **Accueil** dans de le fichier **index.html**
-2. Ajoutez la classe **navbar__link--purple** à la balise `<a>` de **À propos** dans de le fichier **a-propos.html** 
-3. Ajoutez la classe **navbar__link--purple** à la balise `<a>` de **Portfolio** dans de le fichier **portfolio.html**  
-2. Dans le fichier **style.css**, ajoutez le sélecteur **.navbar__link** avec la propriété `color: #a5b4fc` 
+1. Dupliquez le fichier **style.css** et renommez  le par **style.scss**
+2. Cliquez sur **Watch Sass**
+3. Apportez les modifications dans le fichier **style.scss** en encapsulant les sélecteurs **navbar__link** et **navbar__link--purple** dans le sélecteur **navbar**
