@@ -7,8 +7,8 @@
 $color-primary: #a5b4fc
 $color-secondary: #242424
 $color-light: #f9f8ff
-$color-bg-black: #1f2039
-$color-bg-light: white
+$color-black: #1f2039
+$color-white: white
 ```
 
 2. Remplacez les codes hexa par les variables
