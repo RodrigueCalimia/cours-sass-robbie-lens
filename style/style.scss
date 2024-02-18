@@ -5,6 +5,11 @@ $color-light: #f9f8ff;
 $color-black: #1f2039;
 $color-white: white;
 
+// Les mixins
+@mixin linear-gradient { 
+  background: linear-gradient(#8e86b5, #acaeed); 
+}
+
 
 * {
   margin: 0;
@@ -45,14 +50,14 @@ footer {
 
 .cta {
   display: inline-block;
-  background: linear-gradient(#8e86b5, #acaeed);
+  @include linear-gradient;
   color: $color-white;
   border-radius: 50px;
   padding: 20px 30px;
 }
 
 .cta:hover {
-  background: linear-gradient(#696484, #8788ba);
+  @include linear-gradient;
   text-decoration: none;
 }
 
