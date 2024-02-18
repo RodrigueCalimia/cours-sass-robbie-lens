@@ -7,7 +7,8 @@
 3. Enregistrez le fichier **style.scss**
 4. Vérifiez le fichier **style.css** afin d'obtenir le code ci-dessous
 
-```.navbar {
+```
+.navbar {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -20,4 +21,5 @@
 }
 .navbar__link--purple {
   color: #a5b4fc;
-}```
+}
+```
