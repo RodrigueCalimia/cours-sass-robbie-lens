@@ -65,14 +65,14 @@ section {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-}
-.navbar .navbar__link {
-  margin-left: 30px;
-  color: #242424;
-  text-decoration: none;
-}
-.navbar .navbar__link--purple {
-  color: #a5b4fc;
+  .navbar__link {
+    margin-left: 30px;
+    color: #242424;
+    text-decoration: none;
+  }
+  .navbar__link--purple{
+    color: #a5b4fc;
+  }
 }
 
 a:hover {
@@ -102,4 +102,4 @@ a:hover {
     margin-left: 10px;
     margin-right: 10px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
