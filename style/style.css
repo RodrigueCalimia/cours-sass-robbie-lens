@@ -66,12 +66,12 @@ section {
   align-items: center;
   justify-content: space-between;
 }
-.navbar .navbar__link {
+.navbar__link {
   margin-left: 30px;
   color: #242424;
   text-decoration: none;
 }
-.navbar .navbar__link--purple {
+.navbar__link--purple {
   color: #a5b4fc;
 }
 

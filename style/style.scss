@@ -65,12 +65,12 @@ section {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  .navbar__link {
+  &__link {
     margin-left: 30px;
     color: #242424;
     text-decoration: none;
   }
-  .navbar__link--purple{
+  &__link--purple{
     color: #a5b4fc;
   }
 }
