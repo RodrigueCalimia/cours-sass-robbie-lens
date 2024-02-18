@@ -1,6 +1,6 @@
-# COURS SASS - Mise en pratique P1
+# COURS SASS - Mise en pratique P2
 
-Afin d’avoir un code plus propre et maintenable nous allons appliquer la méthode **DRY** dans le `header` :
+## Instructions :
 
-1. Ajoutez la classe **.navbar** à la balise **nav** dans le `header` de chacun des fichiers **a-propos.html**, **index.html** et **portfolio.html**
-2. Dans le fichier **style.css**, remplacez les sélecteurs nav par la classe **.navbar**
+1. Ajoutez la classe **navbar__link** aux balises `<a>` dans la `<div class="links">` dans chacun des fichiers **a-propos.html**, **index.html** et **portfolio.html** 
+2. Dans le fichier **style.css**, remplacez la combinaison des sélecteurs **.navbar a** par la classe **.navbar__link**
