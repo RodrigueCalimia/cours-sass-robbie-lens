@@ -1,1 +1,1 @@
-Base de code pour le cours Sass
+Base de code pour le cours Sass qui sera utilisé par le formateur
