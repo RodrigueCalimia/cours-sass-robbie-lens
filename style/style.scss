@@ -1,3 +1,11 @@
+// Variables
+$color-primary: #a5b4fc;
+$color-secondary: #242424;
+$color-light: #f9f8ff;
+$color-black: #1f2039;
+$color-white: white;
+
+
 * {
   margin: 0;
 }
@@ -5,40 +13,40 @@
 body {
   font-family: "Manrope", sans-serif;
   font-size: 1em;
-  background-color: #1f2039;
+  background-color: $color-black;
 }
 
 em {
-  color: #a5b4fc;
+  color: $color-primary;
   font-style: normal;
 }
 
 h1 {
   font-size: 3.5em;
-  color: #a5b4fc;
+  color: $color-primary;
   font-family: "Montserrat", sans-serif;
 }
 
 h2 {
-  color: #f9f8ff;
+  color: $color-light;
 }
 
 p,
 li {
   font-size: 1.1em;
-  color: #f9f8ff;
+  color: $color-light;
 }
 
 header,
 footer {
-  background-color: white;
+  background-color: $color-white;
   padding: 20px 50px;
 }
 
 .cta {
   display: inline-block;
   background: linear-gradient(#8e86b5, #acaeed);
-  color: white;
+  color: $color-white;
   border-radius: 50px;
   padding: 20px 30px;
 }
@@ -67,11 +75,11 @@ section {
   justify-content: space-between;
   &__link {
     margin-left: 30px;
-    color: #242424;
+    color: $color-secondary;
     text-decoration: none;
   }
   &__link--purple{
-    color: #a5b4fc;
+    color: $color-primary;
   }
 }
 
