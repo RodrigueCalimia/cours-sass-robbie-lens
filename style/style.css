@@ -19,6 +19,10 @@ h1 {
   font-family: "Montserrat", sans-serif;
 }
 
+.section__title--shadow {
+  text-shadow: 0.5rem 0.5rem #082ee7;
+}
+
 h2 {
   color: #f9f8ff;
 }
