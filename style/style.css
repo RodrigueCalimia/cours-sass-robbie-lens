@@ -73,6 +73,10 @@ section {
   text-decoration: none;
 }
 
+.navbar__link--purple{
+  color: #a5b4fc;
+}
+
 a:hover {
   text-decoration: underline;
 }
