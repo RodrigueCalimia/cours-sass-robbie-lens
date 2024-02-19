@@ -35,6 +35,9 @@ h1 {
   font-size: 3.5em;
   color: $color-primary;
   font-family: "Montserrat", sans-serif;
+  @media screen and (max-width: 996px) {
+    font-size: 2em;
+  }
 }
 .section__title--shadow{
   @include title-shadow;
@@ -54,6 +57,9 @@ header,
 footer {
   background-color: $color-white;
   padding: 20px 50px;
+  @media screen and (max-width: 996px) {
+    padding: 20px 20px;
+  }
 }
 
 .cta {
@@ -79,6 +85,9 @@ footer {
 
 section {
   padding: 80px;
+  @media screen and (max-width: 996px) {
+    padding: 50px 20px 50px 20px;
+  }
 }
 
 .navbar {
@@ -86,10 +95,22 @@ section {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  @media screen and (max-width: 996px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    img {
+      margin-bottom: 20px;
+    }
+  }
   &__link {
     margin-left: 30px;
     color: $color-secondary;
     text-decoration: none;
+    @media screen and (max-width: 996px) {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
   }
   &__link--purple{
     color: $color-primary;
@@ -98,29 +119,4 @@ section {
 
 a:hover {
   text-decoration: underline;
-}
-
-@media screen and (max-width: 996px) {
-  header .navbar {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  header .navbar img {
-    margin-bottom: 20px;
-  }
-  header,
-  footer {
-    padding: 20px 20px;
-  }
-  h1 {
-    font-size: 2em;
-  }
-  section {
-    padding: 50px 20px 50px 20px;
-  }
-  .navbar__link {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
 }
