@@ -1,9 +1,19 @@
+// Variables
+$color-primary: #a5b4fc;
+$color-secondary: #242424;
+$color-light: #f9f8ff;
+$color-black: #1f2039;
+$color-white: white;
+$color-lg-1: #8e86b5;
+$color-lg-2: #acaeed;
+$title-shadow-percent: 35%;
+
 .portfolio-section-photos {
-  background-color: white;
-}
-.portfolio-section-photos h2 {
-  color: #242424;
-  margin-bottom: 80px;
+  background-color: $color-white;
+  h2 {
+    color: $color-secondary;
+    margin-bottom: 80px;
+  }
 }
 
 .grid-paysages {
@@ -20,16 +30,14 @@
   gap: 15px;
 }
 
-.grid-paysages img,
-.grid-portraits img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-@media screen and (max-width: 996px) {
-  .grid-paysages,
-  .grid-portraits {
+.grid-paysages,
+.grid-portraits {
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  @media screen and (max-width: 996px) {
     grid-template-columns: 1fr;
     gap: 15px;
   }
@@ -49,11 +57,11 @@
   align-items: center;
   justify-content: center;
   font-size: 1.5em;
-  color: white;
+  color: $color-white;
   background-color: rgba(0, 0, 0, 0.7);
   display: none;
 }
 
 .lien-conteneur-photo:hover .photo-hover {
   display: flex;
-}/*# sourceMappingURL=portfolio.css.map */
+}

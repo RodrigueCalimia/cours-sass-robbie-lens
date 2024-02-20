@@ -1,0 +1,61 @@
+// Variables
+$color-primary: #a5b4fc;
+$color-secondary: #242424;
+$color-light: #f9f8ff;
+$color-black: #1f2039;
+$color-white: white;
+$color-lg-1: #8e86b5;
+$color-lg-2: #acaeed;
+
+.a-propos-main {
+  margin: auto;
+}
+.carre-contenu {
+  border-right: 1px solid $color-lg-1;
+  border-bottom: 1px solid $color-lg-1;
+  padding: 50px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 80px;
+  h2 {
+    margin-top: 30px;
+  }
+  ul {
+    margin-top: 30px;
+  }
+  + div {
+    text-align: center;
+  }
+}
+
+table {
+  color: $color-white;
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 15px;
+  border: 1px solid $color-primary;
+}
+
+td {
+  padding: 80px;
+}
+
+h2 {
+  margin-bottom: 80px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+@media screen and (max-width: 996px) {
+  .section-tarifs {
+    display: none;
+  }
+}
