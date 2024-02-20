@@ -26,8 +26,7 @@ vendors
     5.4. **form** et déplacez y le code en lien avec le **formulaire** du fichier index.scss</br>
     5.5. **table** et déplacez y le code en lien avec le **tableau** du fichier a-propos.scss</br>
     5.6. **grids** et déplacez y le code en lien avec la **grille** du fichier portfolio.scss</br>
-6. Dans le dossier **components**, créez le partiel</br>
-    6.1. **buttons** et déplacez y le code en lien avec les **boutons** du fichier style.scss (.cta)</br>
-7. Dans le dossier **pages**, déplacez les fichiers **a-porpos.scss**, **index.scss** et **portfolio.scss** puis les transformer en partiel
+6. Dans le dossier **components**, créez le partiel **buttons** et déplacez y le code en lien avec les **boutons** du fichier style.scss (.cta)</br>
+7. Dans le dossier **pages**, déplacez les fichiers **a-propos.scss**, **index.scss** et **portfolio.scss** puis les transformer en partiel
 8. Dans le fichier **style.scss**, faîtes l'import de tous les partiels
 9. Enregistrez le fichier **style.scss** et vérifiez que le site est toujours conforme
