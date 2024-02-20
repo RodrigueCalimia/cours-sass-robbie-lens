@@ -1,14 +1,33 @@
-# COURS SASS - Travaux Pratique 1
+# COURS SASS - Mise en pratique P11 - Le modèle pattern 7-1
 
 ## Instructions :
 
-Vous allez devoir améliorer le tout le site de *Robbie Lens* avec ce que vous avez appris dans ce cours.
-Pour cela :
-1. Ajoutez des classes avec la méthode **BEM** dans les fichiers HTML sans perdre de vue ce qui a été fait dans le CSS
-2. Dupliquez les fichiers css **a-propos.css**, **index.css** et **portfolio.css** et modifier leur extension en scss
-3. Utilisez les classes dans les fichiers scss en appliquant le **nesting** et si besoin l’**esperluette**
-4. Créez des **variables** dans chacun des fichiers scss et les utiliser dans les sélecteurs
-5. Créez des **mixins** au besoin
-6. Incluez les **media queries** dans les sélecteurs de chacun des fichiers scss
-7. Enregistrez les modifications
-8. Vérifiez le CSS généré ainsi que le comportement du site
+Vous allez mettre en place la structure du modèle patter 7-1 :
+
+1. Dans le dossier style, créez un dossier **sass**
+2. Dans le dossier sass, créez les différents dossiers du modèle pattern 7-1
+```
+bases
+utils
+layouts
+components
+pages
+themes
+vendors
+```
+3. Dans le dossier **utils**, créez les partiels</br>
+    3.1. **variables** et déplacez y les variables</br>
+    3.2. **mixins** et déplacez y les mixins</br>
+4. Dans le dossier **bases**, créez le partiel **typography** et déplacez y tout ce qui est en lien avec les éléments typographiques issus du fichier style.scss
+5. Dans le dossier **layouts**, créez les partiels</br>
+    5.1. **header** et déplacez y le code en lien avec le **header** du fichier style.scss</br>
+    5.2. **footer** et déplacez y le code en lien avec le **footer** du fichier style.scss</br>
+    5.3. **nav** et déplacez y le code en lien avec le **navbar** du fichier style.scss</br>
+    5.4. **form** et déplacez y le code en lien avec le **formulaire** du fichier index.scss</br>
+    5.5. **table** et déplacez y le code en lien avec le **tableau** du fichier a-propos.scss</br>
+    5.6. **grids** et déplacez y le code en lien avec la **grille** du fichier portfolio.scss</br>
+6. Dans le dossier **components**, créez le partiel</br>
+    6.1. **buttons** et déplacez y le code en lien avec les **boutons** du fichier style.scss (.cta)</br>
+7. Dans le dossier **pages**, déplacez les fichiers **a-porpos.scss**, **index.scss** et **portfolio.scss** puis les transformer en partiel
+8. Dans le fichier **style.scss**, faîtes l'import de tous les partiels
+9. Enregistrez le fichier **style.scss** et vérifiez que le site est toujours conforme
